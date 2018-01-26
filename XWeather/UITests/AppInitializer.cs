@@ -11,7 +11,10 @@ namespace XWeather.UITests
 		public static IApp StartApp (Platform platform)
 		{
 			if (platform == Platform.Android) {
-				return ConfigureApp.Android.StartApp ();
+				return ConfigureApp
+					.Android
+					.ApkFile (@"../../../Droid/bin/Debug/com.xamarin.xweather-Signed.apk")
+					.StartApp ();
 			}
 
 			return ConfigureApp.iOS.StartApp ();
