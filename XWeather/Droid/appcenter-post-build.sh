@@ -1,3 +1,6 @@
+
+npm install -g appcenter-cli
+
 echo "============================================="
 echo "======= APP CENTER POSTBUILD SCRIPT ======="
 echo "============================================="
