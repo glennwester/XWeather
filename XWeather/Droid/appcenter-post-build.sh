@@ -5,6 +5,10 @@ echo "============================================="
 echo "======= APP CENTER POSTBUILD SCRIPT ======="
 echo "============================================="
 
+echo "============================================="
+echo "base dir"
+ls
+echo "============================================="
 
 echo $APPCENTER_OUTPUT_DIRECTORY
 ls $APPCENTER_OUTPUT_DIRECTORY
