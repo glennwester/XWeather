@@ -7,7 +7,7 @@ echo "============================================="
 
 echo "============================================="
 echo "base dir"
-cd ../UITests/bin/Debug
+cd /Users/vsts/agent/2.126.0/work/1/s/XWeather/UITests
 ls
 echo "============================================="
 
