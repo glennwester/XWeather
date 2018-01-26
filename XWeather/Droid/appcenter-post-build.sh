@@ -8,7 +8,7 @@ echo "============================================="
 ls $APPCENTER_SOURCE_DIRECTORY/XWeather
 ls $APPCENTER_OUTPUT_DIRECTORY
  
-appcenter test run uitest --app "TechReady/XWeather" --devices 33cc6afe  --app-path $APPCENTER_OUTPUT_DIRECTORY/com.xamarin.xweather-Signed.apk --test-series "master" --locale "en_US" --build-dir $APPCENTER_OUTPUT_DIRECTORY --uitest-tools-dir $APPCENTER_SOURCE_DIRECTORY/XWeather/packages/Xamarin.UITest.2.2.2/tools --token $apiTokenXWeather 
+appcenter test run uitest --app "TechReady/XWeather" --devices 33cc6afe  --app-path "$APPCENTER_SOURCE_DIRECTORY/XWeather/Droid/bin/Debug/com.xamarin.xweather-Signed.apk"/com.xamarin.xweather-Signed.apk --test-series "master" --locale "en_US" --build-dir $APPCENTER_OUTPUT_DIRECTORY --uitest-tools-dir $APPCENTER_SOURCE_DIRECTORY/XWeather/packages/Xamarin.UITest.2.2.2/tools --token $apiTokenXWeather 
 
 
 #$APPCENTER_SOURCE_DIRECTORY/UITests/bin/Debug
