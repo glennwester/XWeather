@@ -5,7 +5,15 @@ echo "============================================="
 echo "======= APP CENTER POSTBUILD SCRIPT ======="
 echo "============================================="
 
+echo $APPCENTER_SOURCE_DIRECTORY/XWeather/UITests
 ls $APPCENTER_SOURCE_DIRECTORY/XWeather/UITests
+
+echo $APPCENTER_SOURCE_DIRECTORY
+ls $APPCENTER_SOURCE_DIRECTORY
+
+echo $APPCENTER_OUTPUT_DIRECTORY
+ls $APPCENTER_OUTPUT_DIRECTORY
+
 #ls $APPCENTER_OUTPUT_DIRECTORY
 #ls $APPCENTER_SOURCE_DIRECTORY/XWeather/Droid/bin/Debug
  
