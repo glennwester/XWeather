@@ -11,7 +11,10 @@ namespace XWeather.UITests
 		public static IApp StartApp (Platform platform)
 		{
 			if (platform == Platform.Android) {
-				return ConfigureApp.Android.StartApp ();
+				
+
+				//change!
+
 			}
 
 			//this is an important change! 

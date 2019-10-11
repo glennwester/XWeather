@@ -22,6 +22,8 @@ namespace XWeather
 	public static partial class Analytics
 	{
 		static int hashCache; 
+		//an important change
+		
  
 
 		static ConcurrentDictionary<int, double> pageTime = new ConcurrentDictionary<int, double> ();
