@@ -14,6 +14,8 @@ namespace XWeather.UITests
 				return ConfigureApp.Android.StartApp ();
 			}
 
+			//this is an important change! 
+
 			return ConfigureApp.iOS.StartApp ();
 		}
 	}
