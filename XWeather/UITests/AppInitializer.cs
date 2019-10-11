@@ -16,6 +16,8 @@ namespace XWeather.UITests
 
 			//this is an important change! 
 
+			//adding radar functionality
+
 			return ConfigureApp.iOS.StartApp ();
 		}
 	}
